@@ -77,15 +77,16 @@ Interpretability analysis included:
 ```text
 stroke-risk/
 |
-├── notebooks/
-│   ├── 01_cleaning.ipynb
-│   ├── 02_eda.ipynb
-│   ├── 03_feature_engineering.ipynb
+├── scripts/
+│   ├── 01_stroke_cleaning.sas
+│   ├── 02_stroke_eda.sas
+│   ├── 03_stroke_feature_eng.sas
 │   └── 04_stroke_models.ipynb
+|   ├── src/
+|       ├──   evaluation.py
+|       ├──   thresholding.py  
+|       ├──   hyperparameter_tuning.py  
 |
 ├── data/
-├── models/
-├── src/
-├── requirements.txt
 └── README.md
 ```
